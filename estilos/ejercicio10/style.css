@@ -1,3 +1,10 @@
 /* 
-* Cambiar el color de los elementos pares y el primer elemento.
+* Cambiar el color de los elementos 
+pares y el primer elemento.
 */
+li:first-child{
+    color: red;
+}
+li:nth-child(odd){
+    color: red;
+}
