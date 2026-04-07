@@ -1,3 +1,6 @@
 /* 
 *  Solo el párrafo (<p>) dentro del <div> debe ser verde.
 */
+div p{
+    color: rgb(0, 184, 0);
+}
