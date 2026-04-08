@@ -1,0 +1,73 @@
+/* 
+1) Cambiar el color de todos los <p> a azul (blue)
+*/
+#ejercicio1 p {
+  color: blue;
+}
+
+/* 
+2) .destacado → fondo amarillo + negrita
+*/
+#ejercicio2 .destacado {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+/* 
+3)Cambiar el color del elemento con id titulo.
+*/
+#ejercicio3 #titulo {
+  color: blue;
+}
+
+/* 
+4) Solo el <p> dentro de <div> → verde
+*/
+#ejercicio4 div p {
+  color: green;
+}
+
+/* 
+5) Solo hijo directo <p> dentro de <div> → azul
+*/
+#ejercicio5 div > p {
+  color: blue;
+}
+
+/* 
+6) Hacer que <h1> y <h2> tengan el mismo color 
+(por ejemplo violeta).
+*/
+#ejercicio6 h1,h2 {
+  color: violet;
+}
+
+/* 
+7) Solo .texto dentro de <div> → rojo
+*/
+#ejercicio7 div .texto {
+  color: red;
+}
+
+/* 
+8) input tipo password → borde rojo
+*/
+#ejercicio8 input[type="password"] {
+  border: 2px solid red;
+}
+
+/* 
+9) links cuando pasás el mouse (:hover)
+*/
+#ejercicio9 a:hover {
+  color: orange;
+}
+
+/* 
+10)Cambiar el color de los elementos 
+pares y el primer elemento.
+*/
+#ejercicio10 li:nth-child(even),
+#ejercicio10 li:first-child {
+  color: orange;
+}
