@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*
+(1) Logo a la izquierda
+(2) Usuario a la derecha
+(3) Ambos centrados verticalmente
+*/

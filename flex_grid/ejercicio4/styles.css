@@ -1,0 +1,27 @@
+/*Ejercicio 4 - Cards con wrap.
+Objetivo: hacer layouts
+responsive simple.
+
+(1) Mostrar cards en fila.
+(2) Que bajen de línea si 
+no entran.
+(3) Separación entre ellas.
+*/
+.contenedor {
+    display: flex;
+    height: 200px;
+    background-color: aqua;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    /*extra para practicar nomas*/
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.card {
+    background-color: blueviolet;
+    height: 50px;
+    width: 100px;
+}

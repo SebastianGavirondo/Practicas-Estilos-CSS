@@ -1,0 +1,22 @@
+/*
+Ejercicio 5 - Grid básico
+Objetivo: crear estructura simple
+
+(1) Crea 3 columnas iguales
+(2) Agrega espacio entre ellas
+*/
+
+.grid {
+    display: grid;
+    background-color: rgb(129, 19, 83);
+    grid-template-columns: 40px 40px 40px;
+    padding: 15px;
+    gap: 10px;
+
+}
+
+.grid div {
+    background-color: aqua;
+    height: 40px;
+    width: auto;
+}
