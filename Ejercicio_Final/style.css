@@ -38,7 +38,7 @@
 6) Hacer que <h1> y <h2> tengan el mismo color 
 (por ejemplo violeta).
 */
-#ejercicio6 h1,h2 {
+#ejercicio6 h1, #ejercicio6 h2 {
   color: violet;
 }
 
