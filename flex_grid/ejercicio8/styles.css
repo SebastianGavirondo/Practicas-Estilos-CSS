@@ -1,1 +1,41 @@
-s
+/*
+Ejercicio 8 - Layout de páginas 
+(Grid clásico)
+Objetivo: Estructura completa
+
+(1) Header arriba (toda la fila)
+(2) Sidebar a la izquierda (25%)
+(3) Main a la derecha (75%)
+(4) Footer abajo toda la fila
+*/
+
+.layout {
+    height: 400px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr 30px;
+}
+
+.layout header {
+    grid-column: 1/5;
+    background-color: seagreen;
+}
+
+.layout aside {
+    background-color: brown;
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+.layout main {
+    background-color: grey;
+    grid-column: 2/5;
+    grid-row: 2/4;
+}
+
+.layout footer {
+    background-color: slateblue;
+    grid-column: 1/5;
+    grid-row: 4/5;
+}

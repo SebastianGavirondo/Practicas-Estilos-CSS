@@ -1,1 +1,21 @@
-s
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.grande {
+    background-color: blue;
+    width: auto;
+    height: auto;
+    grid-column: 1/3;
+}
+
+div {
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+}
